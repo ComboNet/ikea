@@ -1,0 +1,25 @@
+﻿<Application x:Class="TestWpfMoveVertical1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TestWpfMoveVertical1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries/>
+            <!--#region Main colors-->
+            <SolidColorBrush x:Key="A">#FFFFFF</SolidColorBrush>
+            <SolidColorBrush x:Key="B">#C8C8C8</SolidColorBrush>
+            <SolidColorBrush x:Key="C">#737373</SolidColorBrush>
+            <SolidColorBrush x:Key="D">#8FA2A9</SolidColorBrush>
+            <SolidColorBrush x:Key="E">#37444C</SolidColorBrush>
+            <SolidColorBrush x:Key="F">#2F363C</SolidColorBrush>
+            <SolidColorBrush x:Key="G">#2A2D2F</SolidColorBrush>
+            <SolidColorBrush x:Key="H">#222528</SolidColorBrush>
+            <SolidColorBrush x:Key="I">#00D8FF</SolidColorBrush>
+            <SolidColorBrush x:Key="J">#FFFF00</SolidColorBrush>
+            <SolidColorBrush x:Key="K">#ED1C24</SolidColorBrush>
+            <SolidColorBrush x:Key="L">#84BA00</SolidColorBrush>
+            <!--#endregion-->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

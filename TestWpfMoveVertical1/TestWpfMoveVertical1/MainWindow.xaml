@@ -1,0 +1,63 @@
+﻿<Window x:Class="TestWpfMoveVertical1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWpfMoveVertical1"
+        xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+        mc:Ignorable="d"
+        Title="TestWpfMoveVertical1" Height="768" Width="1366" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Content="{Binding BtnLabel}" Width="80" Command="{Binding PlayCommand}"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Loop Mode: " VerticalContentAlignment="Center"/>
+                <ComboBox ItemsSource="{Binding LoopModes}" DisplayMemberPath="Value" SelectedValuePath="Key" 
+                          SelectedValue="{Binding SelectedLoopMode}" VerticalContentAlignment="Center"/>
+                <Label Content="Loop Start Index: " VerticalContentAlignment="Center"/>
+                <ComboBox ItemsSource="{Binding LoopStartIndexes}" SelectedItem="{Binding SelectedLoopStartIndex}"
+                          VerticalContentAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Ramp Index: " VerticalContentAlignment="Center"/>
+                <ItemsControl ItemsSource="{Binding RampIndexes}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding}" Width="80" 
+                                    Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}, Path=DataContext.UpdateRampCommand}" 
+                                    CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Background="LightBlue">
+                <lvc:CartesianChart Grid.Row="0" EasingFunction="{x:Null}" Series="{Binding ProfileSeries}"
+                                YAxes="{Binding YAxes}" XAxes="{Binding ChartOption.XAxes}"
+                                Sections="{Binding Sections}"
+                                DataPointerDownCommand="{Binding OnDataPointerDownCommand}"/>
+            </Border>
+            <DataGrid Grid.Row="1" ItemsSource="{Binding Points}" SelectedIndex="{Binding SelectedPointIndex}"/>
+        </Grid>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <TextBlock Text="{Binding TimeUpdate}" VerticalAlignment="Center" Margin="4,0,0,0"/>
+        </StackPanel>
+    </Grid>
+
+</Window>
