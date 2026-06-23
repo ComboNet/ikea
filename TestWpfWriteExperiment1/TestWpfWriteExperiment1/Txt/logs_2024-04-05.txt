@@ -1,0 +1,162 @@
+[2024-04-05 10:05:30.735 +07:00] [HABITAT] [Debug] 	"Wi-Fi" ( "wireless_32768" ) is up: false is running: false
+[2024-04-05 10:05:30.736 +07:00] [HABITAT] [Debug] 	"Local Area Connection* 1" ( "wireless_32769" ) is up: false is running: false
+[2024-04-05 10:05:30.736 +07:00] [HABITAT] [Debug] 	"Local Area Connection* 2" ( "wireless_32770" ) is up: false is running: false
+[2024-04-05 10:05:30.738 +07:00] [HABITAT] [Debug] 	Created application data folder at "C:/Users/narongsak.thanindam/Documents/IKA/Habitat/"
+[2024-04-05 10:05:30.738 +07:00] [HABITAT] [Debug] 	Creating directory:  "C:/Users/narongsak.thanindam/Documents/IKA/Habitat/"
+[2024-04-05 10:05:30.738 +07:00] [HABITAT] [Debug] 	Creating directory:  "C:/Users/narongsak.thanindam/AppData/Roaming/IKA/Habitat/.db/"
+[2024-04-05 10:05:30.738 +07:00] [HABITAT] [Debug] 	Creating directory:  "C:/Users/narongsak.thanindam/Documents/IKA/Habitat/logFiles/"
+[2024-04-05 10:05:30.738 +07:00] [HABITAT] [Debug] 	Creating directory:  "C:/Users/narongsak.thanindam/Documents/IKA/Habitat/temp/"
+[2024-04-05 10:05:30.740 +07:00] [HABITAT] [Info] 	"Application name: Habitat    version: 1.0.6    build number: 20232911    date now: 10:05:30 05/04/2024"
+[2024-04-05 10:05:30.740 +07:00] [HABITAT] [Debug] 	Sql database constructor called!
+[2024-04-05 10:05:30.763 +07:00] [HABITAT] [Debug] 	("QSQLITE", "QODBC", "QODBC3", "QPSQL", "QPSQL7", "SQLITECIPHER")
+[2024-04-05 10:05:30.968 +07:00] [HABITAT] [Debug] 	Connection with database success
+[2024-04-05 10:05:30.968 +07:00] [HABITAT] [Debug] 	Create Settings TABLE:  false
+[2024-04-05 10:05:30.968 +07:00] [HABITAT] [Debug] 	SQL error:  "table settings already exists Unable to execute statement"
+[2024-04-05 10:05:30.971 +07:00] [HABITAT] [Debug] 	TimeZone UTC:  "UTC+07:00"
+[2024-04-05 10:05:30.973 +07:00] [HABITAT] [Debug] 	Dropping the user table due to working in normal mode
+[2024-04-05 10:05:30.988 +07:00] [HABITAT] [Debug] 	Create User TABLE:  true
+[2024-04-05 10:05:30.988 +07:00] [HABITAT] [Debug] 	Dropping the recipe table due to working in normal mode
+[2024-04-05 10:05:30.999 +07:00] [HABITAT] [Debug] 	Create Recipe TABLE:  true
+[2024-04-05 10:05:30.999 +07:00] [HABITAT] [Debug] 	Dropping the experiment table due to working in normal mode
+[2024-04-05 10:05:31.012 +07:00] [HABITAT] [Debug] 	Create Experiment TABLE:  true
+[2024-04-05 10:05:31.012 +07:00] [HABITAT] [Debug] 	Dropping the audit_trail table due to working in normal mode
+[2024-04-05 10:05:31.025 +07:00] [HABITAT] [Debug] 	Create Audit Trail TABLE:  true
+[2024-04-05 10:05:31.025 +07:00] [HABITAT] [Debug] 	Dropping the data_log table due to working in normal mode
+[2024-04-05 10:05:31.044 +07:00] [HABITAT] [Debug] 	Create Data Logging TABLE:  true
+[2024-04-05 10:05:31.044 +07:00] [HABITAT] [Debug] 	Dropping the log_files table due to working in normal mode
+[2024-04-05 10:05:31.059 +07:00] [HABITAT] [Debug] 	Create Log Files TABLE:  true
+[2024-04-05 10:05:31.059 +07:00] [HABITAT] [Debug] 	Dropping the alarm_files table due to working in normal mode
+[2024-04-05 10:05:31.075 +07:00] [HABITAT] [Debug] 	Create Alarm Files TABLE:  true
+[2024-04-05 10:05:31.076 +07:00] [HABITAT] [Debug] 	SQL query successful!
+[2024-04-05 10:05:31.076 +07:00] [HABITAT] [Debug] 	Sqlite get Recent Experiment
+[2024-04-05 10:05:31.076 +07:00] [HABITAT] [Debug] 	SQL query successful!
+[2024-04-05 10:05:31.076 +07:00] [HABITAT] [Debug] 	"Running the Experiment destructor."
+[2024-04-05 10:05:31.078 +07:00] [HABITAT] [Debug] 	WlanOpenHandle is available:  0
+[2024-04-05 10:05:31.078 +07:00] [HABITAT] [Debug] 	wlanGetProfileList dwNumberOfItems:  1
+[2024-04-05 10:05:31.078 +07:00] [HABITAT] [Debug] 	WlanGetProfileList done
+[2024-04-05 10:05:31.078 +07:00] [HABITAT] [Debug] 	WlanGetProfileList returning:  true
+[2024-04-05 10:05:31.085 +07:00] [HABITAT] [Debug] 	Write to Serial port:  "{\"HABITAT\":{}}\r\n"
+[2024-04-05 10:05:31.391 +07:00] [HABITAT] [Debug] 	"Bytes received: 74, Message: {\"HABITAT\":{\"name\":\"IKA`HABITAT\",\"snr\":\"300010000\"},\"status\":\"success\"} \r\n"
+[2024-04-05 10:05:31.399 +07:00] [HABITAT] [Debug] 	Serial port is closed.
+[2024-04-05 10:05:31.399 +07:00] [HABITAT] [Debug] 	Checking wifi...
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 0 ]  "Robotics-5G@IKA"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 1 ]  "IWT-GUEST"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 2 ]  "IKA Habitat_FCFE73D6A31"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 3 ]  "IKA-OPCUA-88c216"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 4 ]  "Haydale_5G"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 5 ]  "IKA-OPCUA-006907"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 6 ]  "IKA-OPCUA-990536"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 7 ]  "IKA Habitat_49162C123D6"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 8 ]  "Robotics-5G@IKA"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 9 ]  "Haydale_lab_5G"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 10 ]  "OPCUA@IKA-5G"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 11 ]  "IWT-GUEST"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 12 ]  "OPCUA@IKA"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 13 ]  "Robotics@IKA"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 14 ]  "IWT-IKA"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	SSID[ 15 ]  "Haydale_lab"
+[2024-04-05 10:05:31.400 +07:00] [HABITAT] [Debug] 	Wifi is available!
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	Num Entries:  1
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	Current Index:  0
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	Interface Index[ 0 ]:  0
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	InterfaceGUID[ 0 ]:  0xc626ff060
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	Interface Description[ 0 ]:  0x175dc261c58
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	Interface State[ 0 ]
+[2024-04-05 10:05:31.419 +07:00] [HABITAT] [Debug] 	Not connected
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	Language file:  "app_en_US.qm"
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Info] 	CURRENT LANGUGE:  "en_US"
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)", "Deutsch (de_DE)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)", "Deutsch (de_DE)", "???? (zh_CN)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)", "Deutsch (de_DE)", "???? (zh_CN)", "Espa?ol (es_ES)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)", "Deutsch (de_DE)", "???? (zh_CN)", "Espa?ol (es_ES)", "Fran?aise (fr_FR)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)", "Deutsch (de_DE)", "???? (zh_CN)", "Espa?ol (es_ES)", "Fran?aise (fr_FR)", "Italiano (it)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	availableLanguagesName:  ("System (System)", "English (en_US)", "Deutsch (de_DE)", "???? (zh_CN)", "Espa?ol (es_ES)", "Fran?aise (fr_FR)", "Italiano (it)", "??? (th)")
+[2024-04-05 10:05:31.420 +07:00] [HABITAT] [Debug] 	Entering StartUp Constructor
+[2024-04-05 10:05:31.421 +07:00] [HABITAT] [Debug] 	"enum direct to string: UR_Monitor"
+[2024-04-05 10:05:31.421 +07:00] [HABITAT] [Debug] 	"enum direct to string: UR_Operator"
+[2024-04-05 10:05:31.421 +07:00] [HABITAT] [Debug] 	"enum direct to string: UR_Admin"
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 22 22
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 18 18
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 16 16
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 12 12
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 9 9
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 9 9
+[2024-04-05 10:05:31.686 +07:00] [HABITAT] [Debug] 	Point to sp: 18 18
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 16 16
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 14 14
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 12 12
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 10 10
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 24 24
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 18 18
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 9 9
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 9 9
+[2024-04-05 10:05:31.687 +07:00] [HABITAT] [Debug] 	Point to sp: 9 9
+[2024-04-05 10:05:31.688 +07:00] [HABITAT] [Debug] 	orientationChanged:  2
+[2024-04-05 10:05:31.688 +07:00] [HABITAT] [Debug] 	LANDSCAPE LEFT (HomeButton right)
+[2024-04-05 10:05:31.688 +07:00] [HABITAT] [Debug] 	Set SCREEN orientation LIstener..
+[2024-04-05 10:05:32.325 +07:00] [HABITAT] [Info] 	"Adding Audit trail record: Change System Color"
+[2024-04-05 10:05:32.325 +07:00] [HABITAT] [Debug] 	"Generated SQL query: NOT NULL constraint failed: audit_trail.user Unable to fetch row"
+[2024-04-05 10:05:32.325 +07:00] [HABITAT] [Debug] 	"Running the AuditTrailItem destructor."
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	orientationChanged:  2
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	LANDSCAPE LEFT (HomeButton right)
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	Set SCREEN orientation LIstener..
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	"A p p l i c a t i o n   W i n d o w is created"
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	"M a i n   S c r e e n   Q m l  is successful created."
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	Sqlite Load settings
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	Get Settings: SQL query successful
+[2024-04-05 10:05:32.669 +07:00] [HABITAT] [Debug] 	Load comm type:  enums::SERIAL_COMM
+[2024-04-05 10:05:32.670 +07:00] [HABITAT] [Info] 	Is BlueVary sensor in use?:  Yes
+[2024-04-05 10:05:32.670 +07:00] [HABITAT] [Info] 	Is CgqBior sensor in use?:  Yes
+[2024-04-05 10:05:32.670 +07:00] [HABITAT] [Info] 	Is Weight sensor in use?:  Yes
+[2024-04-05 10:05:32.670 +07:00] [HABITAT] [Debug] 	Creating directory:  "C:/Users/narongsak.thanindam/Documents/IKA/Habitat/help/"
+[2024-04-05 10:05:32.670 +07:00] [HABITAT] [Info] 	Logging Level:  enums::LOG_DEBUG
+[2024-04-05 10:05:32.941 +07:00] [HABITAT] [Info] 	Device response received (UDP):  "{\"HABITAT\":{}}\r\n"
+[2024-04-05 10:05:32.943 +07:00] [HABITAT] [Info] 	Device response received (UDP):  "{\"HABITAT\":{\"name\":\"IKA`HABITAT\",\"snr\":\"IKA00110011\"}} \r\n"
+[2024-04-05 10:05:32.943 +07:00] [HABITAT] [Debug] 	Invalid JSON...
+ "" 
+
+[2024-04-05 10:05:32.955 +07:00] [HABITAT] [Debug] 	Init done from: Initial Item Page @index: 0
+[2024-04-05 10:05:33.017 +07:00] [HABITAT] [Debug] 	"Device connection loaded!"
+[2024-04-05 10:05:33.017 +07:00] [HABITAT] [Debug] 	"Feedback Loaded..."
+[2024-04-05 10:05:33.069 +07:00] [HABITAT] [Debug] 	#### Destroy chart...
+[2024-04-05 10:05:33.074 +07:00] [HABITAT] [Debug] 	Dec to Hex: 0 00
+[2024-04-05 10:05:33.074 +07:00] [HABITAT] [Debug] 	Dec to Hex: 0 00
+[2024-04-05 10:05:33.074 +07:00] [HABITAT] [Debug] 	Dec to Hex: 0 00
+[2024-04-05 10:05:33.074 +07:00] [HABITAT] [Debug] 	Hex String Color: #000000
+[2024-04-05 10:05:33.155 +07:00] [HABITAT] [Debug] 	Cleanup done from: Initial Item Page
+[2024-04-05 10:05:33.278 +07:00] [HABITAT] [Debug] 	"textNoteItem loaded!"
+[2024-04-05 10:05:33.279 +07:00] [HABITAT] [Debug] 	Init done from: Reactor View @index: 1
+[2024-04-05 10:05:33.997 +07:00] [HABITAT] [Debug] 	S C R E E N  -  R E L O A D...
+[2024-04-05 10:05:33.997 +07:00] [HABITAT] [Debug] 	Debug mode: false
+[2024-04-05 10:05:33.997 +07:00] [HABITAT] [Debug] 	Width: 1280
+[2024-04-05 10:05:33.998 +07:00] [HABITAT] [Debug] 	Height: 960
+[2024-04-05 10:05:33.998 +07:00] [HABITAT] [Debug] 	Qt version 5.15.10
+[2024-04-05 10:05:33.998 +07:00] [HABITAT] [Debug] 	Qt version >= 15.0.0?  true
+[2024-04-05 10:05:33.998 +07:00] [HABITAT] [Debug] 	Screen orientation: Lanscape
+[2024-04-05 10:10:07.578 +07:00] [HABITAT] [Debug] 	Sqlite Save Settings
+[2024-04-05 10:10:07.584 +07:00] [HABITAT] [Info] 	Settings updated!
+[2024-04-05 10:10:07.584 +07:00] [HABITAT] [Debug] 	enums::SERIAL_COMM
+[2024-04-05 10:10:07.589 +07:00] [HABITAT] [Debug] 	Disconnect from the device...
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	Num Entries:  1
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	Current Index:  0
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	Interface Index[ 0 ]:  0
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	InterfaceGUID[ 0 ]:  0xc626f92f0
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	Interface Description[ 0 ]:  0x175e82ccec8
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	Interface State[ 0 ]
+[2024-04-05 10:10:07.590 +07:00] [HABITAT] [Debug] 	Not connected
+[2024-04-05 10:10:07.631 +07:00] [HABITAT] [Debug] 	"Running the StartUp destructor."
+[2024-04-05 10:10:07.631 +07:00] [HABITAT] [Debug] 	"Running the CommunicationManager destructor."
+[2024-04-05 10:10:07.631 +07:00] [HABITAT] [Debug] 	"Running the AuditTrailModel destructor."
+[2024-04-05 10:10:07.632 +07:00] [HABITAT] [Debug] 	"Running the AppTranslator destructor."
+[2024-04-05 10:10:07.645 +07:00] [HABITAT] [Debug] 	"Running the WindowsHelper destructor."
+[2024-04-05 10:10:07.645 +07:00] [HABITAT] [Debug] 	"Running the UserListModel destructor."
+[2024-04-05 10:10:07.646 +07:00] [HABITAT] [Debug] 	"Running the RecipeListModel destructor."
+[2024-04-05 10:10:07.646 +07:00] [HABITAT] [Debug] 	"Running the ExperimentListModel destructor."
+[2024-04-05 10:10:07.646 +07:00] [HABITAT] [Debug] 	Cleanup done from: Reactor View
+[2024-04-05 10:10:07.723 +07:00] [HABITAT] [Warn] 	"There are still \"24\" items in the process of being created at engine destruction."
+[2024-04-05 10:10:07.737 +07:00] [HABITAT] [Debug] 	"Running the BiorecJson destructor."
+[2024-04-05 10:10:07.737 +07:00] [HABITAT] [Debug] 	"Running the WifiManager destructor."
+[2024-04-05 10:10:07.737 +07:00] [HABITAT] [Debug] 	"Running the ConnectorSerialPort destructor."
+[2024-04-05 10:10:07.737 +07:00] [HABITAT] [Debug] 	"Running the ConnectorSocket destructor."
