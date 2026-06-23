@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWpfNumericTextBox1", "TestWpfNumericTextBox1\TestWpfNumericTextBox1.csproj", "{A2BB07DA-96A8-4713-BFB8-F1B3256A6CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2BB07DA-96A8-4713-BFB8-F1B3256A6CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BB07DA-96A8-4713-BFB8-F1B3256A6CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BB07DA-96A8-4713-BFB8-F1B3256A6CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BB07DA-96A8-4713-BFB8-F1B3256A6CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CCEAFB2-9D0C-4A43-8B86-F9A44ABE12DB}
+	EndGlobalSection
+EndGlobal
