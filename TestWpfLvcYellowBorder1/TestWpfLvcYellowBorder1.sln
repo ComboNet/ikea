@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWpfLvcYellowBorder1", "TestWpfLvcYellowBorder1\TestWpfLvcYellowBorder1.csproj", "{409B12F0-DD6E-46AE-94B8-119303A0FD33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409B12F0-DD6E-46AE-94B8-119303A0FD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409B12F0-DD6E-46AE-94B8-119303A0FD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409B12F0-DD6E-46AE-94B8-119303A0FD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409B12F0-DD6E-46AE-94B8-119303A0FD33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3204D392-B00B-4040-8EA5-2BDEE465DD4A}
+	EndGlobalSection
+EndGlobal
